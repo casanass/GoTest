@@ -1,13 +1,13 @@
 package main
 
 import (
-	_ "DEMO/models"
-	_ "DEMO/routers"
-	"fmt"
-	"github.com/astaxie/beego"
+	"DEMO/models"
+	"DEMO/routers"
 )
 
 func main() {
-	fmt.Println("main init")
-	fmt.Println(beego.VERSION)
+	//初始化数据库
+	routers.InitRouter()
+	//初始化
+	models.InitDB()
 }

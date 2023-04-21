@@ -2,6 +2,6 @@ package routers
 
 import "fmt"
 
-func init() {
+func InitRouter() {
 	fmt.Println("route init")
 }

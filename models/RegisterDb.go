@@ -2,6 +2,6 @@ package models
 
 import "fmt"
 
-func init() {
+func InitDB() {
 	fmt.Println("register DB init")
 }

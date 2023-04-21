@@ -25,8 +25,10 @@ require (
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/jinzhu/gorm v1.9.16 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/ledisdb/ledisdb v0.0.0-20200510135210-d35789ec47e6 // indirect
-	github.com/lib/pq v1.0.0 // indirect
+	github.com/lib/pq v1.1.1 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/pelletier/go-toml v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -40,8 +42,8 @@ require (
 	github.com/ssdb/gossdb v0.0.0-20180723034631-88f6b59b84ec // indirect
 	github.com/syndtr/goleveldb v0.0.0-20181127023241-353a9fca669c // indirect
 	github.com/wendal/errors v0.0.0-20130201093226-f66c77a7882b // indirect
-	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550 // indirect
-	golang.org/x/net v0.0.0-20190620200207-3b0461eec859 // indirect
+	golang.org/x/crypto v0.0.0-20191205180655-e7c4368fe9dd // indirect
+	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e // indirect
 	golang.org/x/sys v0.0.0-20200615200032-f1bc736245b1 // indirect
 	golang.org/x/text v0.3.0 // indirect
 	google.golang.org/protobuf v1.23.0 // indirect
